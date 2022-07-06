@@ -1,0 +1,38 @@
+.Footer{
+    position: absoluete;
+    bottom: 0;
+    width: 100%;
+    min-height:20rem;
+    background-color: #333333;
+
+    .socialMediaSection{
+        display: flex;
+        color: white;
+        justify-content: center;
+        .icons{
+            font-size: 3.4rem;
+            margin: 1rem 1rem;
+            cursor: pointer;
+        }
+        
+    }
+    .otherKeys{
+        display: flex;
+        justify-content: center;
+        color: white;
+        .key{
+            font-size: 1.2rem;
+            margin: 2rem 2rem;
+            cursor: pointer;
+        }
+        .key:hover{
+            text-decoration: underline;
+        }
+    }
+    .copyRight{
+        text-align: center;
+        margin:2rem;
+        font-size: 1.8rem;
+        color: #13112f;
+    }
+}

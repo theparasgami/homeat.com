@@ -1,0 +1,40 @@
+.filters{
+    
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+
+    .filterIcon{
+       font-size: 4rem;
+       width: 10%;
+    }
+
+    .movingDate{
+      
+       width: 20%;
+      
+       input{   
+           width: 15rem;
+           font-size: 1.6rem;
+           height: 1.6rem;
+           border: none;
+           outline: none;
+           padding: 20px 0 20px 20px;
+       }
+    }
+    
+    .priceRange,.propertyType{
+        width: 20%;
+    }
+    .search{
+        cursor: pointer;
+        width:10rem;
+        height: 3rem;
+        margin-top: auto;
+        border: none;
+        background-color: rgb(250, 206, 10);
+        font-size: 1.5rem;
+        border-top-right-radius:10rem;
+        border-bottom-left-radius: 10rem;
+    }
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+.Navbar{
+    background-color: #daecf6;
+    display: flex;
+    justify-content: center;
+    
+    .logo{
+        display: flex;
+        img{
+            max-width: 6rem;
+        }
+        span{
+            margin-top: auto;
+            font-size: 3rem;
+            font-family: 'Smooch', cursive; 
+            color: rgb(53, 54, 5);
+        }
+    }
+
+    .Tabs{
+        display: flex;
+        justify-content: center;
+        width: 45rem;
+        margin: 0 10rem;
+
+        button{
+            color: rgb(53, 54, 5);
+            border: none;
+            background: none;
+            font-size: 1.3rem;
+            font-family: monospace;
+            width: auto;
+            margin: auto;
+        }
+        button:hover{
+            cursor: pointer;
+            border-bottom:solid black 1px;
+        }
+
+        .activeBtn{
+           background-color: rgb(123, 116, 212);
+           border-top-left-radius:1rem;
+           border-bottom-right-radius: 1rem;
+           color: white;
+           padding: 0.9rem;
+        }
+
+    }
+
+    .authButtons{
+        display: flex;
+        padding: 10px;
+
+        button{
+            margin: auto 0.5rem;
+            cursor: pointer;
+            border: none;
+            border-radius: 10%;
+            height: 2.5rem;
+            width: 6rem;
+            color:rgb(236, 234, 236);
+            font-size: larger;
+        }
+        button:hover{
+            transform: scale(1.1);
+            content:">>"
+        }
+        .login{
+            color: rgb(97, 78, 202);
+        }
+        .signUp{
+            background-color:rgb(97, 78, 202);
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.card{
+    margin: 4rem ;
+    font-family: monospace;
+
+    .heading{
+        display: flex;
+
+        .likeIcon{
+            font-size: 3rem;
+        }
+        .likeIcon:hover{
+            color: red;
+        }
+        h1{
+            width: 80%;
+            margin: auto;
+        }
+        .fireIcon{
+            float: right;
+            font-size:3rem;
+            color:rgb(226, 126, 33)
+        }
+    }
+    .price{
+        color: rgb(103, 8, 228);
+        font-size: 1rem;
+        .amount{
+            color:green;
+            font-size:1.7rem;
+            font-weight: bolder;
+        }
+    }
+    .propertyType{
+        font-size: 1.4rem;
+        margin-top:10px;
+        color: #1951d3;
+        .details{
+            display: flex;
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #1951d3;
+        }
+    }
+    .availableFrom{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .address{
+        margin-top: 1rem;
+        color: rgb(168, 146, 189);
+        font-size: 1.3rem;
+    }
+
+
+}
