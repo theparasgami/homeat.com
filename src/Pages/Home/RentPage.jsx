@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {  useSelector } from 'react-redux';
 
+import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
 import Navbar from "../../Components/Navbar/Navbar";
 import FrontView from "../../Components/Dashboard/FrontView";
 import Filters from "../../Components/Dashboard/Filters"
@@ -88,8 +89,18 @@ const Dashboard=()=>{
                 
             </div>
          }
-
-         <Footer/>
+         {
+           !loading&&allHomes.length===0?
+                        (<div style={{textAlign:"center",
+                                      marginTop:"2rem",
+                                      fontSize:"2rem"
+                         }}>
+                             <SentimentVeryDissatisfiedIcon style={{fontSize:"4rem"}}/>
+                             <br/>
+                             Sorry , No search Result
+                         </div>):''
+         }
+        <Footer/>
     </div>)
 }
 
